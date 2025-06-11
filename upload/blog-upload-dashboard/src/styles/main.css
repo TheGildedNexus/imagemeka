@@ -1,0 +1,151 @@
+/* General body and container styles */
+body {
+    background: #f4f6f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Sidebar styles */
+.bg-white {
+    background: #fff !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+}
+
+.rounded {
+    border-radius: 8px !important;
+}
+
+.nav.flex-column .nav-link {
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav.flex-column .nav-link.active,
+.nav.flex-column .nav-link:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+/* Dashboard cards and sections */
+.bg-white {
+    background: #fff;
+}
+
+.p-3, .p-4 {
+    box-sizing: border-box;
+}
+
+.mb-3, .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
+
+.table th {
+    background: #f8f9fa;
+    color: #333;
+    font-weight: 600;
+}
+
+.table-bordered {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.btn-danger, .btn-secondary, .btn-primary {
+    min-width: 70px;
+}
+
+.btn-danger {
+    background: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #b52a37;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: #565e64;
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Form styles */
+.form-group label {
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control, .form-control-file {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    background: #fafbfc;
+    transition: border 0.2s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Stats section */
+#stats .display-4 {
+    color: #28a745;
+}
+
+#stats .col h6 {
+    color: #555;
+    font-weight: 500;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991px) {
+    .container {
+        max-width: 98%;
+    }
+    .col-md-3, .col-md-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mb-4 {
+        margin-bottom: 1rem !important;
+    }
+}
